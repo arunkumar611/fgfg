@@ -1,4 +1,4 @@
-name: Pulumi UP
+name: Pulumi ESC List Environments
 on:
   workflow_dispatch:
 
@@ -46,4 +46,5 @@ jobs:
           
       - name: List all Pulumi ESC Environments
         run: pulumi env ls -o arun-test
+
 
